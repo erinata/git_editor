@@ -1,0 +1,3 @@
+module GitEditor
+  # Your code goes here...
+end
