@@ -21,7 +21,9 @@ After installation, the editor will automatically show up during config editing,
 
 The syntax is colored so that you can see clearly which lines are the comment lines and which are actual commit messages.
 
-You can run "git config --global --edit" to ensure that the editor is working properly.
+You can run 
+  git config --global --edit 
+to ensure that the editor is working properly.
 
 The editor supports multi-selection. just press alt+shift+up/down arrow. It will keep multiple lines selected so you can type on multiple lines simultaneously. This is particular useful when you want to replace a bunch of "pick" by "squash".
 
