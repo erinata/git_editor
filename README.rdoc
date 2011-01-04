@@ -25,7 +25,7 @@ You can run
   git config --global --edit 
 to ensure that the editor is working properly.
 
-The editor supports multi-selection. just press alt+shift+up/down arrow. It will keep multiple lines selected so you can type on multiple lines simultaneously. This is particular useful when you want to replace a bunch of "pick" by "squash".
+The editor supports multi-selection. just press alt+shift+up/down arrow. It will keep multiple lines selected so you can type on multiple lines simultaneously. This is particular useful when you are working on interactive rebasing and you want to replace a bunch of "pick" by "squash".
 
 When you press Ctrl+S, the editor save and quit automatically.
 
