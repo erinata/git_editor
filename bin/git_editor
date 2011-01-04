@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
-editor = File.join(File.dirname(File.dirname(__FILE__)),"editor","git_editor.exe")
+editor = File.join(File.dirname(File.dirname(__FILE__)),"editor","giteditor.exe")
 
 system("git config --global core.editor '#{editor}'")
+system("git config --system core.editor '#{editor}'")
+system("git config --local core.editor '#{editor}'")
