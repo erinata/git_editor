@@ -1,5 +1,10 @@
+0.0.3
+Adjust color of string
+
 0.0.2
 Add support for system and local config editing
 
 0.0.1
 Initialize project
+customizing the editor's syntax highlighting behaviour
+Add keyword list of git editor 
