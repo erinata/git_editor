@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["erinata@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{An editor for using git on Windows}
-  s.description = %q{An editor for using git on Windows}
+  s.description = %q{git_editor is an editor for using git on Windows. It provide syntax highlighting  during config editing, interactive rebasing and committing. You can install it as a gem or you can choose the standalone version if you are not using ruby. Please refer to the github page for more details. https://github.com/erinata/git_editor}
 
   s.executables << 'git_editor'
   
