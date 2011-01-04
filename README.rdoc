@@ -4,16 +4,30 @@ An editor for Git in Windows
 
 == Install
 
+(If you are not using ruby, please refer to the standalone version)
 To install the gem:
   
   gem install git_editor
   
-Make sure that you already have Git installed on your machine. 
+Make sure that you already have Git installed on your machine.
 After the installation of the gem, run the following command in the command line
 
   git_editor install
   
 Git_editor is now the default editor of Git.
+
+== Standalone version
+
+If you are not using ruby, you can download the git_editor-0.1.0.zip from the repository. Unzip it to a location of your choice. 
+Make sure that you have Git installed on your machine. And run
+
+  git config --global core.editor "<path of your editor>\giteditor.exe"
+  
+for example:
+
+  git config --global core.editor "C:\Program files\git_editor\giteditor.exe"
+
+Then Git will use this editor as its default editor.
 
 == Usage
 
