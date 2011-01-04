@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-editor = File.join(File.dirname(File.dirname(__FILE__)),"editor","giteditor.exe")
+editor = File.join(File.dirname(File.dirname(__FILE__)),"git_editor","giteditor.exe")
 
 case ARGV[0].to_s.downcase
 when 'install'
