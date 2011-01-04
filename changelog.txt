@@ -1,3 +1,6 @@
+0.0.4
+Add install and uninstall command
+
 0.0.3
 Adjust color of string
 
