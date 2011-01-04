@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["erinata"]
   s.email       = ["erinata@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{An editor for using git in Windows}
-  s.description = %q{An editor for using git in Windows}
+  s.summary     = %q{An editor for using git on Windows}
+  s.description = %q{An editor for using git on Windows}
 
   s.executables << 'git_editor'
   
