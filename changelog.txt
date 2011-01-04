@@ -1,0 +1,5 @@
+0.0.2
+Add support for system and local config editing
+
+0.0.1
+Initialize project
