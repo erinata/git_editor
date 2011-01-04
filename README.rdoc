@@ -1,10 +1,34 @@
 = Git Editor
 
-An editor for using git in Windows
+An editor for Git in Windows
 
 == Install
 
+To install the gem:
+  
+  gem install git_editor
+  
+Make sure that you already have Git installed on your machine. 
+After the installation of the gem, run the following command in the command line
+
+  git_editor install
+  
+Git_editor is now the default editor of Git.
+
 == Usage
+
+After installation, the editor will automatically show up during config editing, interactive rebasing and commiting.
+
+The syntax is colored so that you can see clearly which lines are the comment lines and which are actual commit messages.
+
+You can run "git config --global --edit" to ensure that the editor is working properly.
+
+The editor supports multi-selection. just press alt+shift+up/down arrow. It will keep multiple lines selected so you can type on multiple lines simultaneously. This is particular useful when you want to replace a bunch of "pick" by "squash".
+
+When you press Ctrl+S, the editor save and quit automatically.
+
+Easy access to theme customization will be in future releases.
+
 
 == License
 
