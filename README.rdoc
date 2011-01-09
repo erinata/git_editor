@@ -14,7 +14,18 @@ After the installation of the gem, run the following command in the command line
 
   git_editor install
   
-Git_editor is now the default editor of Git.
+Git_editor is now the default editor of Git. You may see the following error message if you are not using the command "git_editor install" in a folder of a git repository:
+
+  error: could not lock config file .git/config: No such file or directory
+
+This is normal.
+
+You can verify if you have installed the editor successfully or not by:
+
+  git config --global --edit
+
+A nice editor (instead of a vim in your terminal) should show up.
+
 
 == Standalone version
 
@@ -28,6 +39,13 @@ for example:
   git config --global core.editor "C:\Program files\git_editor\giteditor.exe"
 
 Then Git will use this editor as its default editor.
+
+You can verify if you have installed the editor successfully or not by:
+
+  git config --global --edit
+
+A nice editor (instead of a vim in your terminal) should show up.
+
 
 == Usage
 
