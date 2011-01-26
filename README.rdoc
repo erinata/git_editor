@@ -26,7 +26,6 @@ You can verify if you have installed the editor successfully or not by:
 
 A nice editor (instead of a vim in your terminal) should show up.
 
-
 == Standalone version
 
 If you are not using ruby, you can download the git_editor - 0.2.0 standalone.zip from https://github.com/downloads/erinata/git_editor/git_editor%20-%200.2.0%20standalone.zip
@@ -48,6 +47,9 @@ You can verify if you have installed the editor successfully or not by:
 
 A nice editor (instead of a vim in your terminal) should show up.
 
+== Upgrade
+
+Remember that you need to run git_editor install AT THE LOCAL REPOSITORY FOLDER after upgrading to 0.2.0.
 
 == Usage
 
