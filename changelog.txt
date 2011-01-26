@@ -1,3 +1,9 @@
+0.1.3
+remove zip files from repo
+
+0.1.2
+First alpha
+
 0.0.4
 Add install and uninstall command
 

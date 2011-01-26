@@ -7,15 +7,13 @@ when 'install'
   system("git config --global core.editor '#{editor}'")
   system("git config --system core.editor '#{editor}'")
   system("git config --local core.editor '#{editor}'")
-
 when 'uninstall'
   system("git config --global --unset core.editor")
   system("git config --system --unset  core.editor")
   system("git config --local --unset  core.editor")
-
 else
   puts ""
-  print "git_editor install   ----- Set git_editor as the editor for Git\ngit_editor uninstall ----- Configure Git to use the default editor instead\n"
+  print "git_editor install   ----- Set git_editor as the editor for Git\ngit_editor uninstall ----- Configure Git to use the default editor\n\n"
 end
 
 

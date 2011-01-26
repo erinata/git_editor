@@ -29,7 +29,7 @@ A nice editor (instead of a vim in your terminal) should show up.
 
 == Standalone version
 
-If you are not using ruby, you can download the git_editor-0.1.2-standalone.zip from the repository. Unzip it to a location of your choice. 
+If you are not using ruby, you can download the git_editor-0.1.4-standalone.zip from the repository. Unzip it to a location of your choice. 
 Make sure that you have Git installed on your machine. And run
 
   git config --global core.editor "<path of your editor>\giteditor.exe"
