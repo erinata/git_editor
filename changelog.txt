@@ -1,5 +1,6 @@
-0.1.3
+0.2.0
 remove zip files from repo
+Add easy access to color options
 
 0.1.2
 First alpha

@@ -61,7 +61,9 @@ The editor supports multi-selection. just press alt+shift+up/down arrow. It will
 
 When you press Ctrl+S, the editor save and quit automatically.
 
-Easy access to theme customization will be in future releases.
+== Customizing color
+
+If you want to customize the color of git editor, go to menu>Options>Open customize.properties and edit the file. The scite editor do have tons of options but this file pick only include several important color options (with comment) so you can change that color easily.
 
 
 == License
