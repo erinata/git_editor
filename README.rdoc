@@ -20,6 +20,10 @@ Git_editor is now the default editor of Git. You may see the following error mes
 
 This is normal.
 
+Please Uninstall all previous versions while you are updating.
+
+Also, you may need to run git_editor install in your project's folder if the editor is not showing up for that particular project.
+
 You can verify if you have installed the editor successfully or not by:
 
   git config --global --edit
